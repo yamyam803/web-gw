@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: medium;
+    font-family: sans-serif;
+
+}
+
+
+nav {
+    display: flex;
+    background-color:rgb(235, 174, 61);
+    justify-content: space-around;
+    padding: 25px 0;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-between; 
+    list-style:none ;                       
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+.div img {
+  align-items: center;
+  display: flex;
+  width: 1000px;
+  padding-inline-start: 100px;
+
+}
+
+img {
+     width: 350px;
+     height: 350px;
+     border: 2px solid #575D63;
+     padding: 5px;
+     text-align: center;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; 
+    
+     
+     
+}
+.p {
+  font-size: 11px;
+  color: blueviolet;
+}
+
+.kotak {
+  height: 200px;
+  width: 983px;
+  border-style: solid;
+  border-color: yellow;
+  align-items: center;
+  
+}
+
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+footer {
+  background-color: orange;
+  font-family: sans-serif;
+  padding: 20px;
+  border-style: solid;
+  text-align: center;
+}
+
